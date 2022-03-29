@@ -1,0 +1,251 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7510,
+      "max": [
+        53.04555892944336,
+        34.12929916381836,
+        144.9824981689453
+      ],
+      "min": [
+        -57.4864501953125,
+        -33.41537094116211,
+        101.33097076416016
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 90120,
+      "componentType": 5126,
+      "count": 7510,
+      "max": [
+        1.0,
+        0.9996646642684937,
+        0.9999352097511292
+      ],
+      "min": [
+        -1.0,
+        -0.9996566772460938,
+        -0.9975717663764954
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7510,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.2886100113391876
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 29370,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 180240,
+      "componentType": 5126,
+      "count": 8384,
+      "max": [
+        58.031131744384766,
+        58.031131744384766,
+        246.23895263671875
+      ],
+      "min": [
+        -58.031131744384766,
+        -58.031131744384766,
+        101.33097076416016
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 280848,
+      "componentType": 5126,
+      "count": 8384,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 60080,
+      "componentType": 5126,
+      "count": 8384,
+      "max": [
+        1.012279987335205,
+        1.0
+      ],
+      "min": [
+        -0.08332999795675278,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 117480,
+      "componentType": 5125,
+      "count": 29262,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "elias. (https://sketchfab.com/elias.)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/living-room-lamp-59375edf5fdf4ba2a7d660a812a4a720",
+      "title": "Living Room Lamp"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 234528,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 127152,
+      "byteOffset": 234528,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 381456,
+      "byteOffset": 361680,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 743136,
+      "uri": "living.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "01___Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.20377549810479087,
+          0.20377549810479087,
+          0.20377549810479087,
+          1.0
+        ],
+        "metallicFactor": 0.6047302766293898,
+        "roughnessFactor": 0.16288247828999702
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "lamp_living_room_2.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
